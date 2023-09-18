@@ -2,5 +2,5 @@
 
 * Naam: Vincent Verboven
 * Klasgroep: INF202A
-* Studentennummer:
+* Studentennummer: 0160231-84
 * Academiejaar: 2023-2024
