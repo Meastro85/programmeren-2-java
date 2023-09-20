@@ -31,7 +31,7 @@ public class Demo1 {
         System.out.println(messenLijst);
 
         System.out.println("Getsize test:");
-        System.out.println(messenLijst.getsize());
+        System.out.println(messenLijst.getSize());
 
         System.out.println("Sorting test:");
         System.out.println("Gesorteerd op materiaal:");

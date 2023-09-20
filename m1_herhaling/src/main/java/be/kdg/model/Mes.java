@@ -29,17 +29,11 @@ public class Mes implements Comparable<Mes> {
         this("Onbekend", LocalDate.of(1,1,1), 0, 0, "Onbekend", Lemmet.ONBEKEND);
     }
 
-    public String getType() {
-        return type;
-    }
+    //region Setters
 
     public void setType(String type) {
         if (type.isEmpty()) throw new IllegalArgumentException("Type mes mag niet leeg zijn");
         this.type = type;
-    }
-
-    public LocalDate getProductieDag() {
-        return productieDag;
     }
 
     public void setProductieDag(LocalDate productieDag) {
@@ -47,17 +41,9 @@ public class Mes implements Comparable<Mes> {
         this.productieDag = productieDag;
     }
 
-    public double getLengte() {
-        return lengte;
-    }
-
     public void setLengte(double lengte) {
         if (lengte < 0) throw new IllegalArgumentException("Lengte moet groter zijn dan 0");
         this.lengte = lengte;
-    }
-
-    public int getHardheid() {
-        return hardheid;
     }
 
     public void setHardheid(int hardheid) {
@@ -65,22 +51,44 @@ public class Mes implements Comparable<Mes> {
         this.hardheid = hardheid;
     }
 
-    public String getMateriaal() {
-        return materiaal;
-    }
-
     public void setMateriaal(String materiaal) {
         if (materiaal.isEmpty()) throw new IllegalArgumentException("Het materiaal mag niet leeg zijn");
         this.materiaal = materiaal;
+    }
+
+    public void setLemmet(Lemmet lemmet) {
+        this.lemmet = lemmet;
+    }
+
+    //endregion
+
+    //region Getters
+
+    public String getType() {
+        return type;
+    }
+
+    public LocalDate getProductieDag() {
+        return productieDag;
     }
 
     public Lemmet getLemmet() {
         return lemmet;
     }
 
-    public void setLemmet(Lemmet lemmet) {
-        this.lemmet = lemmet;
+    public double getLengte() {
+        return lengte;
     }
+
+    public int getHardheid() {
+        return hardheid;
+    }
+
+    public String getMateriaal() {
+        return materiaal;
+    }
+
+    //endregion
 
     @Override
     public boolean equals(Object o) {

@@ -1,6 +1,5 @@
 package be.kdg.model;
 
-import java.lang.reflect.Type;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -20,11 +19,11 @@ public class Messen {
         return messenTreeSet.add(mes);
     }
 
-    public boolean remove(String type, LocalDate productiedag, Lemmet lemmet, double lengte, int hardheid, String materiaal ){
+    public boolean remove(String type, LocalDate productieDag, Lemmet lemmet, double lengte, int hardheid, String materiaal ){
         for (Iterator<Mes> iterator = messenTreeSet.iterator(); iterator.hasNext(); ) {
             Mes next =  iterator.next();
             if(Objects.equals(next.getType(), type) &&
-                    next.getProductieDag().isEqual(productiedag) &&
+                    next.getProductieDag().isEqual(productieDag) &&
                     next.getLemmet() == lemmet &&
                     next.getLengte() == lengte &&
                     next.getHardheid() == hardheid &&
@@ -35,14 +34,14 @@ public class Messen {
         return false;
     }
 
-    public Mes search(String type, LocalDate productiedag, Lemmet lemmet, double lengte, int hardheid, String materiaal){
+    public Mes search(String type, LocalDate productieDag, Lemmet lemmet, double lengte, int hardheid, String materiaal){
         for (Mes mes : messenTreeSet) {
-            if(mes.equals(new Mes(type, productiedag, lengte, hardheid, materiaal, lemmet))) return mes;
+            if(mes.equals(new Mes(type, productieDag, lengte, hardheid, materiaal, lemmet))) return mes;
         }
         return null;
     }
 
-    public int getsize(){
+    public int getSize(){
         return messenTreeSet.size();
     }
 
