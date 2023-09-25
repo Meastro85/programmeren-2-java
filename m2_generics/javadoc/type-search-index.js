@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"be.kdg.data","l":"Data"},{"p":"<Unnamed>","l":"Demo_2"},{"p":"be.kdg.generics","l":"FIFOQueue"},{"p":"be.kdg.model","l":"Lemmet"},{"p":"be.kdg.model","l":"Mes"},{"p":"be.kdg.generics","l":"PriorityQueue"}];updateSearchResults();
