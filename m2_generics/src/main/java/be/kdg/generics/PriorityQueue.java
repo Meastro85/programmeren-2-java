@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class PriorityQueue<T> implements FIFOQueue<T> {
 
-    private Map<Integer, LinkedList<T>> map;
+    private final Map<Integer, LinkedList<T>> map;
 
     public PriorityQueue() {
         map = new TreeMap<>(Collections.reverseOrder());
@@ -20,7 +20,7 @@ public class PriorityQueue<T> implements FIFOQueue<T> {
             if (map.get(k).contains(element)) return false;
         }
         if (map.get(priority) == null) {
-            map.put(priority, new LinkedList<T>(Arrays.asList(element)));
+            map.put(priority, new LinkedList<>(Arrays.asList(element)));
         } else {
             map.get(priority).add(element);
         }

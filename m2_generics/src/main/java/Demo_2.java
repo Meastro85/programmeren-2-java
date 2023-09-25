@@ -4,7 +4,6 @@ import be.kdg.model.Lemmet;
 import be.kdg.model.Mes;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Random;
 
 /**
