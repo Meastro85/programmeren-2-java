@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<messen>
+  <mes type="Broodmes">
+    <materiaal>High Carbon Steel</materiaal>
+    <hardheid>62</hardheid>
+    <lemmet>Schaapsvoet</lemmet>
+    <lengte>22.2</lengte>
+    <productiedag>2019-09-05</productiedag>
+  </mes>
+  <mes type="Fileermes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>59</hardheid>
+    <lemmet>Schaapsvoet</lemmet>
+    <lengte>15.7</lengte>
+    <productiedag>2010-08-08</productiedag>
+  </mes>
+  <mes type="Gyuto-mes">
+    <materiaal>Damascus staal</materiaal>
+    <hardheid>61</hardheid>
+    <lemmet>Schaapsvoet</lemmet>
+    <lengte>21.3</lengte>
+    <productiedag>2018-05-11</productiedag>
+  </mes>
+  <mes type="Hakmes">
+    <materiaal>High Carbon Steel</materiaal>
+    <hardheid>60</hardheid>
+    <lemmet>Klip</lemmet>
+    <lengte>20.7</lengte>
+    <productiedag>2013-04-09</productiedag>
+  </mes>
+  <mes type="Jachtmes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>58</hardheid>
+    <lemmet>Droppoint</lemmet>
+    <lengte>12.4</lengte>
+    <productiedag>2002-10-17</productiedag>
+  </mes>
+  <mes type="Keukenmes">
+    <materiaal>Damascus staal</materiaal>
+    <hardheid>63</hardheid>
+    <lemmet>Schaapsvoet</lemmet>
+    <lengte>19.2</lengte>
+    <productiedag>2022-09-07</productiedag>
+  </mes>
+  <mes type="Koksmes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>58</hardheid>
+    <lemmet>Normaal</lemmet>
+    <lengte>20.5</lengte>
+    <productiedag>2015-03-10</productiedag>
+  </mes>
+  <mes type="Nakiri-mes">
+    <materiaal>High Carbon Stainless Steel</materiaal>
+    <hardheid>61</hardheid>
+    <lemmet>Schaapsvoet</lemmet>
+    <lengte>16.4</lengte>
+    <productiedag>2017-06-12</productiedag>
+  </mes>
+  <mes type="Santokumes">
+    <materiaal>Damascus staal</materiaal>
+    <hardheid>60</hardheid>
+    <lemmet>Klip</lemmet>
+    <lengte>18.8</lengte>
+    <productiedag>2018-02-03</productiedag>
+  </mes>
+  <mes type="Schilmes">
+    <materiaal>Koolstofstaal</materiaal>
+    <hardheid>54</hardheid>
+    <lemmet>Normaal</lemmet>
+    <lengte>10.3</lengte>
+    <productiedag>2012-05-20</productiedag>
+  </mes>
+  <mes type="Schilmes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>56</hardheid>
+    <lemmet>Normaal</lemmet>
+    <lengte>8.9</lengte>
+    <productiedag>2016-08-22</productiedag>
+  </mes>
+  <mes type="Steakmes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>57</hardheid>
+    <lemmet>Normaal</lemmet>
+    <lengte>12.6</lengte>
+    <productiedag>2014-03-30</productiedag>
+  </mes>
+  <mes type="Uitbeenmes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>55</hardheid>
+    <lemmet>Klip</lemmet>
+    <lengte>14.9</lengte>
+    <productiedag>2005-10-18</productiedag>
+  </mes>
+  <mes type="Visfileermes">
+    <materiaal>High Carbon Stainless Steel</materiaal>
+    <hardheid>58</hardheid>
+    <lemmet>Droppoint</lemmet>
+    <lengte>18.5</lengte>
+    <productiedag>2011-01-25</productiedag>
+  </mes>
+  <mes type="Vleesmes">
+    <materiaal>Roestvrij staal</materiaal>
+    <hardheid>56</hardheid>
+    <lemmet>Droppoint</lemmet>
+    <lengte>25.1</lengte>
+    <productiedag>2007-07-14</productiedag>
+  </mes>
+</messen>

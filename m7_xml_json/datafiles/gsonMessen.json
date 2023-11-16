@@ -1,0 +1,124 @@
+{
+  "messenList": [
+    {
+      "type": "Koksmes",
+      "productiedag": "2015-03-10",
+      "lengte": 20.5,
+      "hardheid": 58,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "NORMAAL"
+    },
+    {
+      "type": "Broodmes",
+      "productiedag": "2019-09-05",
+      "lengte": 22.2,
+      "hardheid": 62,
+      "materiaal": "High Carbon Steel",
+      "lemmet": "SCHAAPSVOET"
+    },
+    {
+      "type": "Vleesmes",
+      "productiedag": "2007-07-14",
+      "lengte": 25.1,
+      "hardheid": 56,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "DROPPOINT"
+    },
+    {
+      "type": "Santokumes",
+      "productiedag": "2018-02-03",
+      "lengte": 18.8,
+      "hardheid": 60,
+      "materiaal": "Damascus staal",
+      "lemmet": "KLIP"
+    },
+    {
+      "type": "Schilmes",
+      "productiedag": "2012-05-20",
+      "lengte": 10.3,
+      "hardheid": 54,
+      "materiaal": "Koolstofstaal",
+      "lemmet": "NORMAAL"
+    },
+    {
+      "type": "Fileermes",
+      "productiedag": "2010-08-08",
+      "lengte": 15.7,
+      "hardheid": 59,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "SCHAAPSVOET"
+    },
+    {
+      "type": "Nakiri-mes",
+      "productiedag": "2017-06-12",
+      "lengte": 16.4,
+      "hardheid": 61,
+      "materiaal": "High Carbon Stainless Steel",
+      "lemmet": "SCHAAPSVOET"
+    },
+    {
+      "type": "Uitbeenmes",
+      "productiedag": "2005-10-18",
+      "lengte": 14.9,
+      "hardheid": 55,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "KLIP"
+    },
+    {
+      "type": "Steakmes",
+      "productiedag": "2014-03-30",
+      "lengte": 12.6,
+      "hardheid": 57,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "NORMAAL"
+    },
+    {
+      "type": "Keukenmes",
+      "productiedag": "2022-09-07",
+      "lengte": 19.2,
+      "hardheid": 63,
+      "materiaal": "Damascus staal",
+      "lemmet": "SCHAAPSVOET"
+    },
+    {
+      "type": "Visfileermes",
+      "productiedag": "2011-01-25",
+      "lengte": 18.5,
+      "hardheid": 58,
+      "materiaal": "High Carbon Stainless Steel",
+      "lemmet": "DROPPOINT"
+    },
+    {
+      "type": "Hakmes",
+      "productiedag": "2013-04-09",
+      "lengte": 20.7,
+      "hardheid": 60,
+      "materiaal": "High Carbon Steel",
+      "lemmet": "KLIP"
+    },
+    {
+      "type": "Schilmes",
+      "productiedag": "2016-08-22",
+      "lengte": 8.9,
+      "hardheid": 56,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "NORMAAL"
+    },
+    {
+      "type": "Gyuto-mes",
+      "productiedag": "2018-05-11",
+      "lengte": 21.3,
+      "hardheid": 61,
+      "materiaal": "Damascus staal",
+      "lemmet": "SCHAAPSVOET"
+    },
+    {
+      "type": "Jachtmes",
+      "productiedag": "2002-10-17",
+      "lengte": 12.4,
+      "hardheid": 58,
+      "materiaal": "Roestvrij staal",
+      "lemmet": "DROPPOINT"
+    }
+  ]
+}
