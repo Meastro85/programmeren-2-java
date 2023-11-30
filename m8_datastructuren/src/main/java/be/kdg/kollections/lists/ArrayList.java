@@ -1,4 +1,6 @@
-package be.kdg.kollections;
+package be.kdg.kollections.lists;
+
+import be.kdg.kollections.Kollections;
 
 import java.util.Arrays;
 
@@ -11,6 +13,11 @@ public class ArrayList<E> implements List<E> {
     public ArrayList() {
         elements = new Object[INITIAL_CAPACITY];
         size = 0;
+    }
+
+    public ArrayList(int size) {
+        elements = new Object[size];
+        this.size = size;
     }
 
     private void expand() {
@@ -42,6 +49,21 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
+    public boolean remove(E element) {
+        int index = indexOf(element);
+        if(index > 0){
+            elements[index] = null;
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean contains(E element) {
+        return indexOf(element) >= 0;
+    }
+
+    @Override
     public void set(int index, E element) {
         if (index > this.size || index < 0) {
             throw new IndexOutOfBoundsException("index: " + index + ", size: " + size);
@@ -52,6 +74,11 @@ public class ArrayList<E> implements List<E> {
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    public int indexOf(E element) {
+        return Kollections.lineairSearch(this,element);
     }
 
     @Override

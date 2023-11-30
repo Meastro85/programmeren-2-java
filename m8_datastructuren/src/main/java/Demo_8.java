@@ -1,13 +1,11 @@
-import be.kdg.kollections.ArrayList;
+import be.kdg.kollections.lists.ArrayList;
 import be.kdg.kollections.Kollections;
-import be.kdg.kollections.List;
+import be.kdg.kollections.lists.List;
 import be.kdg.model.Lemmet;
 import be.kdg.model.Mes;
 import be.kdg.model.MesFactory;
 
 import java.time.LocalDate;
-import java.util.SortedMap;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -58,5 +56,9 @@ public class Demo_8 {
         System.out.println("Binary search voor onbestaand element: " + Kollections.binarySearch(quicksortList, MesFactory.newRandomMes()));
         System.out.println("Linaer search voor onbestaand element: " + Kollections.binarySearch(quicksortList, MesFactory.newRandomMes()));
 
+        Mes.equalsTeller = 0;
+        PerformanceTester.compareListMapToHashMap(1000);
+
+        PerformanceTester.compareArraySetToTreeSet();
     }
 }

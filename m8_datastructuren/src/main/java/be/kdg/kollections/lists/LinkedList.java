@@ -1,4 +1,4 @@
-package be.kdg.kollections;
+package be.kdg.kollections.lists;
 
 
 public class LinkedList<E> implements List<E> {
@@ -62,6 +62,18 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
+    public boolean remove(E element) {
+        int index = indexOf(element);
+        E oldElement = remove(index);
+        return oldElement != null;
+    }
+
+    @Override
+    public boolean contains(E element) {
+        return indexOf(element) >= 0;
+    }
+
+    @Override
     public void set(int index, E element) {
         if (index > this.size || index < 0) {
             throw new IndexOutOfBoundsException("index: " + index + ", size: " + size);
@@ -76,6 +88,17 @@ public class LinkedList<E> implements List<E> {
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    public int indexOf(E element) {
+        Node<E> node = root;
+        int counter = 0;
+        while(node.next != null){
+            if(node.value == element) return counter;
+            counter++;
+        }
+        return -1;
     }
 
     @Override
