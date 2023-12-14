@@ -2,6 +2,7 @@ package be.kdg.model;
 
 import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * Vincent Verboven
@@ -9,10 +10,10 @@ import java.util.*;
  */
 public class Messen {
 
-    private Set<Mes> messenTreeSet;
+    private ArrayBlockingQueue<Mes> messenTreeSet;
 
-    public Messen(){
-        messenTreeSet = new TreeSet<>();
+    public Messen(int capacity){
+        messenTreeSet = new ArrayBlockingQueue<>(capacity);
     }
 
     public boolean add(Mes mes){
