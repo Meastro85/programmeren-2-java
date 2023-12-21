@@ -9,8 +9,8 @@ import java.util.Objects;
  * 18/09/2023
  */
 public class Mes implements Comparable<Mes> {
-    public static int equalsTeller = 0;
-    public static int compareTeller = 0;
+    public static int equalsCounter = 0;
+    public static int compareCounter = 0;
     private String type;
     private LocalDate productieDag;
     private double lengte;
@@ -94,7 +94,7 @@ public class Mes implements Comparable<Mes> {
 
     @Override
     public boolean equals(Object o) {
-        equalsTeller++;
+        equalsCounter++;
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Mes mes = (Mes) o;
@@ -108,7 +108,7 @@ public class Mes implements Comparable<Mes> {
 
     @Override
     public int compareTo(Mes o) {
-        compareTeller++;
+        compareCounter++;
         return Comparator.comparing(Mes::getType)
                 .compare(this, o);
     }

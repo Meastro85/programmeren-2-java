@@ -27,13 +27,13 @@ public class ReflectionTools {
             }
 
             StringBuilder interfaceString = new StringBuilder();
-            for(Class iface : bClass.getInterfaces()){
+            for(Class<?> iface : bClass.getInterfaces()){
                 interfaceString.append("\n").append(iface.getSimpleName());
             }
 
             StringBuilder constructorString = new StringBuilder();
-            for(Constructor con : bClass.getDeclaredConstructors()){
-                constructorString.append("\n").append(con);
+            for(Constructor<?> con : bClass.getDeclaredConstructors()){
+                constructorString.append("\n").append(con.toGenericString());
             }
 
             System.out.printf("""

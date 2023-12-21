@@ -41,9 +41,7 @@ public class Messen {
     @Override
     public String toString() {
         StringBuilder string = new StringBuilder();
-        for (Mes mes : messenTreeSet) {
-           string.append(mes);
-        }
+        messenTreeSet.forEach(string::append);
         return string.toString();
     }
 }

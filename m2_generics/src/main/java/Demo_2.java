@@ -23,7 +23,7 @@ public class Demo_2 {
         System.out.println("aantal: " + myQueue.getSize());
         System.out.println("Positie van Schilmes: " + myQueue.search(new Mes("Schilmes", LocalDate.of(2012, 5,20),10.3, 54, "Koolstofstaal", Lemmet.NORMAAL)));
         for(int i = 0; i < 10; i++){
-            myQueue.dequeue();
+            System.out.println("Dequeue: " + myQueue.dequeue());
         }
         System.out.printf("Aantal na dequeue: " + myQueue.getSize());
     }

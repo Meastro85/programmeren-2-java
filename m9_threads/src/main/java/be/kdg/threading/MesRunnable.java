@@ -13,7 +13,7 @@ import java.util.stream.Stream;
  * 7/12/2023
  */
 public class MesRunnable implements Runnable {
-    private Predicate predicate;
+    private Predicate<Mes> predicate;
     private List<Mes> mesList;
     public MesRunnable(Predicate<Mes> predicate){
         this.predicate = predicate;

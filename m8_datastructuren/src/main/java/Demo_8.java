@@ -56,7 +56,7 @@ public class Demo_8 {
         System.out.println("Binary search voor onbestaand element: " + Kollections.binarySearch(quicksortList, MesFactory.newRandomMes()));
         System.out.println("Linaer search voor onbestaand element: " + Kollections.binarySearch(quicksortList, MesFactory.newRandomMes()));
 
-        Mes.equalsTeller = 0;
+        Mes.equalsCounter = 0;
         PerformanceTester.compareListMapToHashMap(1000);
 
         PerformanceTester.compareArraySetToTreeSet();

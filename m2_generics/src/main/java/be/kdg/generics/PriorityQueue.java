@@ -20,7 +20,7 @@ public class PriorityQueue<T> implements FIFOQueue<T> {
             if (map.get(k).contains(element)) return false;
         }
         if (map.get(priority) == null) {
-            map.put(priority, new LinkedList<>(Arrays.asList(element)));
+            map.put(priority, new LinkedList<>(Collections.singletonList(element)));
         } else {
             map.get(priority).add(element);
         }
